@@ -56,6 +56,8 @@
     text-align: center;
     padding: 25px 0;
     background: #181818;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 .quem-somos-titulo a{
