@@ -50,7 +50,7 @@
     line-height: 1.8;
 }
 
-#quem-somos a{
+#quem-somos{
     font-family: 'Ubuntu', sans-serif;
     color: white;
     text-align: center;
@@ -58,7 +58,7 @@
     background: #181818;
 }
 
-.alunos-div {
+.alunos-div a{
     text-align: center;
     padding: 50px 0;
 }
