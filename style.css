@@ -50,7 +50,7 @@
     line-height: 1.8;
 }
 
-#quem-somos{
+#quem-somos {
     font-family: 'Ubuntu', sans-serif;
     color: white;
     text-align: center;
@@ -58,9 +58,10 @@
     background: #181818;
 }
 
-.quem-somos-titulo a{
+.quem-somos-titulo a {
     text-align: center;
 }
+
 .alunos-div {
     text-align: center;
     padding: 50px 0;
@@ -78,9 +79,11 @@
 
 .roda-pé {
     background-color: black;
-    justify-content: center;;
+    justify-content: center;
+    ;
 }
-.nome-aluno{
+
+.nome-aluno {
     padding: 0px 0px 20px 0px;
 }
 
@@ -89,10 +92,12 @@
     border-radius: 50%;
     padding: 0px 30px;
 }
-.roda-pé-texto{
+
+.roda-pé-texto {
     margin: 10px 0px 5px 0px;
     color: white;
 }
+
 li {
     float: left;
 }
@@ -144,8 +149,16 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+
+}
+
+.fim {
+    text-align: center;
+    color: white;
     line-height: 2.5
 }
-.fim{text-align: center; color: white;}
-.meio{ display: flex;
-justify-content: center;}
+
+.meio {
+    display: flex;
+    justify-content: center;
+}
