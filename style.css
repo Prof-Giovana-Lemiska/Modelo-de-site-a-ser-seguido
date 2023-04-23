@@ -56,7 +56,6 @@
     text-align: center;
     padding: 25px 0;
     background: #181818;
-
 }
 
 .quem-somos-titulo a{
@@ -79,8 +78,7 @@
 
 .roda-pé {
     background-color: black;
-    justify-content: center;
-    display: flex;
+    justify-content: center;;
 }
 .nome-aluno{
     padding: 0px 0px 20px 0px;
