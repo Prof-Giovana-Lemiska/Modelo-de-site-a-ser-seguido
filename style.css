@@ -145,6 +145,6 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.fim{text-align: center;}
+.fim{text-align: center; color: white;}
 .meio{ display: flex;
 justify-content: center;}
