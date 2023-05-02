@@ -10,6 +10,9 @@
     justify-content: space-around;
     padding: 15px 0;
     font-family: 'Ubuntu', sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .cabeçalho-imagem {
