@@ -212,7 +212,7 @@ li.dropdown {
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 100%;
+
   text-align: center;
 }
 
@@ -251,4 +251,3 @@ li.dropdown {
   from {opacity: .4}
   to {opacity: 1}
 }
-.pequeno{width: 20% ;}
