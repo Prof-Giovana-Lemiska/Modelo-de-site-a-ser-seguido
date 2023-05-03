@@ -181,9 +181,6 @@ li.dropdown {
     display: none
 }
 
-.mySlides fade {
-    display: flex
-}
 
 .prev,
 .next {
