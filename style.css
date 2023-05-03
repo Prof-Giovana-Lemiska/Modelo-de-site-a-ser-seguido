@@ -170,6 +170,8 @@ li.dropdown {
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
+    padding-top: 40px;
+    background-color: bisque;
   }
   
   .carousel-container {
