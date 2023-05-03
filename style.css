@@ -167,7 +167,7 @@ li.dropdown {
     justify-content: center;
 }
 .carousel {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     position: relative;
   }
@@ -191,7 +191,7 @@ li.dropdown {
   }
   
   .card img {
-    width: 100%;
+    width: 80%;
     height: 200px;
     object-fit: cover;
   }
