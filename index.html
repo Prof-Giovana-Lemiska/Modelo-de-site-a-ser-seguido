@@ -21,118 +21,49 @@
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn">Disciplinas</a>
                 <div class="dropdown-content">
-                    <a href="Robótica.html">Robótica</a>
-                    <a href="#">Disciplina 2</a>
-                    <a href="#">Disciplina 3</a>
+                  <a href="Robótica.html">Robótica</a>
+                  <a href="#">Disciplina 2</a>
+                  <a href="#">Disciplina 3</a>
                 </div>
-            </li>
+              </li>
         </ul>
     </header>
     <section id="corpo">
         <div class="corpo-div-conteudo">
             <h2 class="corpo-titulo">Sobre o Site</h2>
-            <p class="paragrafo-um">Este site tem o intuito de xxxxx xxxxx xxxxxx xxxxx xxxxx xxxxxxxx xxxxx xxxxxx xxx
-                xxxxxxxx, xxx xxxxxx xxxxxxxx, xxxxxx xxxxxx, xxxxxxxxxx.
+            <p class="paragrafo-um">Este site tem o intuito de xxxxx xxxxx xxxxxx xxxxx xxxxx xxxxxxxx xxxxx xxxxxx xxx xxxxxxxx, xxx xxxxxx xxxxxxxx, xxxxxx xxxxxx, xxxxxxxxxx.
             </p>
-            <p class="paragrafo-dois"> xxxx xxxxxxx xxxxxx xxxxxxxxx xxxxx xxxxxxxx xxxxxxxxxxx xxxxxx xxxxxx xxxxxxxxx
-                xxxxx xxxxxxxx xxxxx xxxxxx xxx xxxxxxxx, xxxxxxx xxxx xxxxxx, xxxxxxx xxxxx, xxxxxxxx xx.</p>
-        </div>
+            <p class="paragrafo-dois"> xxxx xxxxxxx xxxxxx xxxxxxxxx xxxxx xxxxxxxx xxxxxxxxxxx xxxxxx xxxxxx xxxxxxxxx xxxxx xxxxxxxx xxxxx xxxxxx xxx xxxxxxxx, xxxxxxx xxxx xxxxxx, xxxxxxx xxxxx, xxxxxxxx xx.</p>
+        </div> 
         <img class="foto-corpo" src="g-foto.png" alt="foto do corpo">
     </section>
-    <div class="slideshow-container">
 
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img class="pequeno" src="g-01.png">
-            <div class="text">Caption Text</div>
-            <p class="text-mySlides"> Aqui virão os textos desse carrosel?</p>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img class="pequeno" src="g-cep.png">
-            <div class="text">Caption Two</div>
-            <p class="text-mySlides"> Aqui virão os textos desse carrosel?</p>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img class="pequeno" src="g-foto.png">
-            <div class="text">
-                <p class="text-mySlides"> Aqui virão os textos desse carrosel?</p>
-            </div>
     
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br>
-
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-<script>
-    let slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-</script>
     <section id="quem-somos">
         <h2 class="quem-somos-titulo">Quem somos?</h2>
         <div class="alunos-todos">
             <div class="alunos-div">
                 <img class="alunos-fotos" src="g-01.png" alt="foto do aluno">
                 <h3 class="nome-aluno">Aluno 01 da turma XXX</h3>
-                <p>Um texto de apresentação sobre o aluno, no qual ele coloca informações que julga pertinente e que
-                    gostaria que soubessemos sobre ele.
+                <p>Um texto de apresentação sobre o aluno, no qual ele coloca informações que julga pertinente e que gostaria que soubessemos sobre ele.
                 </p>
             </div>
             <div class="alunos-div">
                 <img class="alunos-fotos" src="g-01.png" alt="foto do aluno">
                 <h3 class="nome-aluno">Aluno 02 da turma XXX</h3>
-                <p>Um texto de apresentação sobre o aluno, no qual ele coloca informações que julga pertinente e que
-                    gostaria que soubessemos sobre ele.
+                <p>Um texto de apresentação sobre o aluno, no qual ele coloca informações que julga pertinente e que gostaria que soubessemos sobre ele.
                 </p>
             </div>
             <div class="alunos-div">
                 <img class="alunos-fotos" src="g-01.png" alt="foto do aluno">
                 <h3 class="nome-aluno">Aluno 03 da turma XXX</h3>
-                <p>Um texto de apresentação sobre o aluno, no qual ele coloca informações que julga pertinente e que
-                    gostaria que soubessemos sobre ele.
+                <p>Um texto de apresentação sobre o aluno, no qual ele coloca informações que julga pertinente e que gostaria que soubessemos sobre ele.
                 </p>
             </div>
             <div class="alunos-div">
                 <img class="alunos-fotos" src="g-01.png" alt="foto do aluno">
                 <h3 class="nome-aluno">Aluno 04 da turma XXX</h3>
-                <p>Um texto de apresentação sobre o aluno, no qual ele coloca informações que julga pertinente e que
-                    gostaria que soubessemos sobre ele.
+                <p>Um texto de apresentação sobre o aluno, no qual ele coloca informações que julga pertinente e que gostaria que soubessemos sobre ele.
                 </p>
             </div>
         </div>
@@ -140,9 +71,9 @@ function showSlides(n) {
     <footer class="roda-pé">
         <p class="fim"> Trabalho desenvolvido na disciplina de programação </p>
         <div class="meio">
-            <img class="roda-pé-imagem" src="g-cep.png" alt="Logo">
-            <span></span>
-            <p class="roda-pé-texto">Colégio Estadual do Paraná</p>
+        <img class="roda-pé-imagem" src="g-cep.png" alt="Logo">
+        <span></span>
+        <p class="roda-pé-texto">Colégio Estadual do Paraná</p>
         </div>
     </footer>
 
