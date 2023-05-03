@@ -174,10 +174,7 @@ li.dropdown {
   
   .carousel-container {
     display: flex;
-    overflow-x: scroll;
-    scroll-behavior: smooth;
     margin-bottom: 20px;
-    -webkit-overflow-scrolling: touch;
   }
   
   .card {
