@@ -1,0 +1,58 @@
+.carousel {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 40px;
+    background-color: bisque;
+  }
+  
+  .carousel-container {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+    padding-top: 20px;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin: 20px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin: 0 20px 20px;
+  }
+  
+  .carousel-nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-nav button {
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .carousel-nav .prev {
+    margin-right: 20px;
+  }
+  
