@@ -176,7 +176,7 @@ li.dropdown {
 }
 
 .mySlides {
-  display: none;
+  display: flex
 }
 
 .prev, .next {
