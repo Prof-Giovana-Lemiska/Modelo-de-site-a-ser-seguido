@@ -11,7 +11,8 @@
     padding: 15px 0;
     font-family: 'Ubuntu', sans-serif;
     position: fixed;
-    padding-top: 100px
+    padding-top: 100px;
+    width: 100%;
 }
 
 .cabeçalho-imagem {
