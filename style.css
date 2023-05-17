@@ -1,6 +1,6 @@
 /* Estilos comuns para todas as telas */
 /* ... */
-@media screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+@media screen and (device-width: 390px) and (device-height: 844px){
     * {
         margin: 0;
         padding: 0;
