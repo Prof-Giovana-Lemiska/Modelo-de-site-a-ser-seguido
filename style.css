@@ -54,6 +54,9 @@
     line-height: 1.8;
 }
 
+.paragrafo-um{
+    text-align: justify;
+}
 #quem-somos {
     font-family: 'Ubuntu', sans-serif;
     color: white;
