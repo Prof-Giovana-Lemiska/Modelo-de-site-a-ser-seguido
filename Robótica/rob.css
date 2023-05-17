@@ -21,7 +21,7 @@
     padding: 5px 5px;
 }
 
-.foto-corpo {
+.foto-corpo a {
     width: 30%;
     padding: 40px;
 }
@@ -158,9 +158,4 @@ li.dropdown {
 }
 .corpo-titulo{
     text-decoration: underline;
-}
-a{
-    margin: 0;
-    padding: 0;
-    width: 5%;
 }
