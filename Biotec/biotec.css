@@ -88,7 +88,7 @@ body{
 .roda-pé {
     background-color: rgb(255, 255, 255);
     justify-content: center;
-    border: 2px solid black;
+    border: 2px solid rgb(160, 154, 154);
 }
 
 .nome-aluno {
