@@ -21,12 +21,21 @@
     display: block;
 }
 
-.cabeçalho-imagem{
+.cabeçalho-imagem {
     border-radius: 50%;
     width: 80px;
 }
 
 .foto-corpo a {
+    width: 30%;
+    padding: 40px;
+}
+
+.paragrafo-um {
+    text-align: justify;
+}
+
+.foto-corpo {
     width: 30%;
     padding: 40px;
 }
@@ -161,6 +170,7 @@ li.dropdown {
     display: flex;
     justify-content: center;
 }
-.corpo-titulo{
+
+.corpo-titulo {
     text-decoration: underline;
 }
