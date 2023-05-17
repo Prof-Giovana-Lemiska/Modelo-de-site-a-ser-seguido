@@ -1,6 +1,64 @@
+/* Estilos comuns para todas as telas */
+/* ... */
+
+/* Estilos para telas menores, como dispositivos móveis */
 @media screen and (max-width: 768px) {
-    .texto-cabecalho {
-      font-size: 16px; /* ou qualquer outro tamanho desejado */
+    /* Ajuste o cabeçalho para ocupar o espaço necessário */
+    .cabeçalho {
+      padding: 10px;
+    }
+  
+    /* Ajuste o tamanho da imagem no cabeçalho */
+    .cabeçalho-imagem {
+      width: 30px;
+    }
+  
+    /* Ajuste o tamanho da imagem no corpo */
+    .foto-corpo {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+    }
+  
+    /* Ajuste o layout da seção "Quem somos" */
+    .alunos-todos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .alunos-div {
+      width: 100%;
+      margin: 10px;
+    }
+  }
+  
+  /* Estilos para telas maiores, como desktops */
+  @media screen and (min-width: 769px) {
+    /* Ajuste o cabeçalho para ocupar o espaço desejado */
+    .cabeçalho {
+      padding: 15px 0;
+    }
+  
+    /* Restaure o tamanho da imagem no cabeçalho */
+    .cabeçalho-imagem {
+      width: 5%;
+    }
+  
+    /* Restaure o tamanho da imagem no corpo */
+    .foto-corpo {
+      width: 30%;
+      max-width: none;
+    }
+  
+    /* Restaure o layout da seção "Quem somos" */
+    .alunos-todos {
+      display: block;
+    }
+  
+    .alunos-div {
+      width: 100%;
+      margin: 20px auto;
     }
   }
   
