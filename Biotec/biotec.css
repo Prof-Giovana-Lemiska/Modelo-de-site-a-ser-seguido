@@ -4,10 +4,10 @@
 }
 
 body{ 
-    background-image: linear-gradient(rgb(174, 128, 231), white);
+    background-image: linear-gradient(rgba(174, 128, 231, 0.821), white);
 }
 .cabeçalho {
-    background-color: rgb(172, 153, 196);
+    background-color: rgb(174, 128, 231);
     color: white;
     display: flex;
     justify-content: space-around;
