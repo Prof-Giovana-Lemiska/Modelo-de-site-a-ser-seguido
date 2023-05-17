@@ -156,3 +156,6 @@ li.dropdown {
     display: flex;
     justify-content: center;
 }
+.corpo-titulo{
+    text-decoration: underline;
+}
