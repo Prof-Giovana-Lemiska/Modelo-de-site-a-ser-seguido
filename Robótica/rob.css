@@ -159,3 +159,7 @@ li.dropdown {
 .corpo-titulo{
     text-decoration: underline;
 }
+
+.cabeçalho-imagem a{ 
+    display: block;
+}
