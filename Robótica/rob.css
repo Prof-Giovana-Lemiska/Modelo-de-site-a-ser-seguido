@@ -160,5 +160,6 @@ li.dropdown {
     text-decoration: underline;
 }
 a{
-    display: none;
+    margin: 0;
+    padding: 0;
 }
