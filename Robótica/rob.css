@@ -16,13 +16,14 @@
 }
 
 .cabeçalho-imagem a {
-    width: 5%;
+
     padding: 5px 5px;
     display: block;
 }
 
 .cabeçalho-imagem{
     border-radius: 50%;
+    width: 5%;
 }
 
 .foto-corpo a {
