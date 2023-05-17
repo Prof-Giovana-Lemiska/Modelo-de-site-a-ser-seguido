@@ -25,7 +25,9 @@
     width: 80px;
     border-radius: 50%;
     padding: 5px 5px;
-    height: auto;
+    height: 80px;
+    margin-top: 25%;
+    padding: 0 10px;
 }
 
 .foto-corpo {
