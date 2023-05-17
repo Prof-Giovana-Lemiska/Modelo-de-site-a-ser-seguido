@@ -53,6 +53,9 @@
 .texto-cabecalho {
     font-size: 20px;
     margin: 27px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center
 }
 
 .corpo-div-conteudo {
