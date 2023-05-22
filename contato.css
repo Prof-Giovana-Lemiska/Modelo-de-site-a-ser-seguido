@@ -6,7 +6,6 @@
 .contato__titulo,
 .contato__texto {
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     background-clip: text;
     color: white;
 }
