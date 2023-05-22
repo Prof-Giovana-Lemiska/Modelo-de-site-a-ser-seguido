@@ -20,6 +20,7 @@
 .contato__texto {
     font-weight: 300;
     margin: 1em 0;
+    color: white;
 }
 
 .contato__email {
