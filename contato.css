@@ -30,12 +30,6 @@
     color: black;
 }
 
-.contato__email::placeholder {
-    color: black;
-    background: url("./Email.svg") no-repeat;
-    padding-left: 2em;
-}
-
 .formulario{
     background-color: rgb(26, 31, 48);
     padding: 20px;
