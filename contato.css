@@ -89,3 +89,15 @@ input[type=submit]{
     text-align: center;
     border-radius: 15px;
 }
+.mensagem{
+    line-height: 20px;
+    padding: 10px;
+    height: 205px;
+    resize: none;
+}
+.lado_1{
+    padding: 0 50px;
+}
+.lado_2{
+    margin: 0 80px 0;  
+}
