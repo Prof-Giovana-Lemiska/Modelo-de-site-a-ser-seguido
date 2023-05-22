@@ -37,9 +37,8 @@
 }
 
 .formulario{
-    width: 400px;
-    padding: 30px;
-    border:1px solid #ccc;
+    background-color: rgb(26, 31, 48);
+    padding: 20px;
 }
 .formulario p{
     width: 100%;
