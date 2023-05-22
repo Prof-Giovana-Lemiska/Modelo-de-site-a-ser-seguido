@@ -1,6 +1,5 @@
 .contato {
     padding: 1em;
-    background-color: rgb(26, 31, 48);
 }
 
 .contato__titulo,
@@ -35,7 +34,6 @@
     align-items: center;
 }
 .formulario{
-    background-color: rgb(26, 31, 48);
     padding: 20px;
 }
 .formulario p{
