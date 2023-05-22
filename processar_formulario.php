@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $para = "seu_email@example.com";
+    $para = "lemiska.giovana@escola.pr.gov.br";
     $assunto = "Nova mensagem do formulário de contato";
     $remetente = $_POST['email'];
     $nome = $_POST['nome'];
