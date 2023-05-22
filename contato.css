@@ -32,6 +32,6 @@
 
 .contato__email::placeholder {
     color: black;
-    background: url("./Email.png") no-repeat;
+    background: url("./Email.svg") no-repeat;
     padding-left: 5em;
 }
