@@ -176,14 +176,20 @@ li.dropdown {
 .corpo-titulo {
     text-decoration: underline;
 }
+
+
 @media screen and (max-width: 768px) {
     * {
         margin: 0;
         padding: 0;
     }
+    body{ 
+        background-image: linear-gradient(rgba(174, 128, 231, 0.821), rgb(152, 199, 216));
+    }
+    
 
     .cabeçalho {
-        background-color: rgb(45, 52, 75);
+        background-color: rgb(174, 128, 231);
         color: white;
         display: flex;
         justify-content: space-around;
@@ -209,7 +215,6 @@ li.dropdown {
 
 
     #corpo {
-        background-color: rgb(26, 31, 48);
     color: white;
     display: flex;
     padding: 30px 0;
