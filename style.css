@@ -170,14 +170,13 @@ li.dropdown {
     justify-content: center;
 }
 
-.pesuisa {
-
-    padding-top: 400px;
+.pesquisa {
+    padding-top: 120px;
 }
 
 .search-pesquisa {
     background-color: transparent;
-    border: 1px solid var(--branco);
+    border: 1px solid #181818);
     color: var(--branco);
     border-radius: 24px;
     padding: 1em;
@@ -185,11 +184,10 @@ li.dropdown {
 }
 
 .search-pesquisa::placeholder {
-    font-family: var(--fonte-principal);
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    color: var(--branco);
+    color: black;
     background: url("Lupa.svg") no-repeat;
     background-position: 1em;
 }
