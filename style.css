@@ -173,6 +173,7 @@ li.dropdown {
 .pesquisa {
     padding-top: 120px;
     background-color: rgb(45, 52, 75);
+    align-items: center;
 }
 
 .search-pesquisa {
@@ -181,7 +182,7 @@ li.dropdown {
     color: var(--branco);
     border-radius: 24px;
     padding: 1em;
-    width: 100%;
+    width: 90%;
 }
 
 .search-pesquisa::placeholder {
