@@ -1,3 +1,112 @@
+@media screen and (max-width: 768px) {
+    .contato {
+        padding: 1em;
+        background-color: rgb(26, 31, 48);
+    }
+    
+    .contato__titulo,
+    .contato__texto {
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: white;
+    }
+    
+    .contato__titulo {
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+    }
+    
+    .contato__texto {
+        font-weight: 300;
+        margin: 1em 0;
+        color: white;
+    }
+    
+    .contato__email {
+        padding: 1em;
+        border: 1px solid black;
+        border-radius: 24px;
+        width: 90%;
+        color: black;
+    }
+    
+    .lado {
+        display: flex;
+        align-items: center;
+    }
+    .formulario{
+        background-color: rgb(26, 31, 48);
+        padding: 20px;
+    }
+    .formulario p{
+        width: 100%;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .field{
+        width: 100%;
+        margin: 15px 0;
+    }
+    .field label, 
+    .field span{
+        padding-left: 10px;
+        font-size: 1.1em;
+        display: block;
+        width: 100%;
+    }
+    .radiobox label{
+        width: auto;
+        display: inline-block;
+    }
+    input[type=text],
+    input[type=email],
+    textarea{
+        width: 100%;
+        padding-left: 10px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 15px;
+        border: 1px solid #ccc;
+        outline: none;
+        width: 270px;
+    }
+    input#nao{
+        margin-left: 30px;
+    }
+    textarea{
+        line-height: 20px;
+        padding: 10px;
+        height: 90px;
+        resize: none;
+    }
+    input[type=submit]{
+        display: block;
+        background-color: #ccc;
+        height: 35px;
+        border: none;
+        outline: 0;
+        cursor: pointer;
+        width: 100px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .mensagem{
+        line-height: 20px;
+        padding: 10px;
+        height: 110px;
+        resize: none;
+        width: 100%;
+    }
+    .lado_1{
+        padding: 0 20px 0 100px;
+    }
+    .lado_2{
+        margin: 0 80px 0;  
+    }
+}
+
 .contato {
     padding: 1em;
     background-color: rgb(26, 31, 48);
