@@ -34,6 +34,7 @@
     .lado {
         display: flex;
         align-items: center;
+        flex-direction: column;
     }
     .formulario{
         background-color: rgb(26, 31, 48);
