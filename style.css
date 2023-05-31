@@ -194,8 +194,10 @@ li.dropdown {
 }
 .lado{
     display: flex;
+    align-items: center;
     
 }
-.lado_2{
-    display: block;
+.field{
+    width: 100%;
+    margin: 15px 0;
 }
