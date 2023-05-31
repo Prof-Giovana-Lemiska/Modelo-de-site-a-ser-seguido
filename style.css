@@ -183,7 +183,7 @@ li.dropdown {
     color: var(--branco);
     border-radius: 24px;
     padding: 1em;
-    width: 80%;
+    width: 82%;
 }
 
 .search-pesquisa::placeholder {
