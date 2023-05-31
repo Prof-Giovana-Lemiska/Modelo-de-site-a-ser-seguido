@@ -98,8 +98,11 @@
 
     .nome-aluno {
         padding: 0px 0px 20px 0px;
+        width: 118%;
     }
-
+.texto-aluno{
+    width: 124%;
+}
     .roda-pé-imagem {
         width: 40px;
         border-radius: 50%;
