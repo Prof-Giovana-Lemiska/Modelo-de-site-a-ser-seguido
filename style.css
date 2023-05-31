@@ -192,21 +192,26 @@ li.dropdown {
     background: url("Lupa.svg") no-repeat;
     background-position: 1em;
 }
-.lado{
+
+.lado {
     display: flex;
     align-items: center;
-    
+
 }
-.field{
+
+.field {
     width: 100%;
     margin: 15px 0;
 }
+
 .lado_1 {
     padding: 0 20px 0 100px;
 }
+
 .lado_2 {
     margin: 0 80px 0;
 }
+
 .formulario {
     background-color: rgb(26, 31, 48);
     padding: 20px;
@@ -218,13 +223,18 @@ li.dropdown {
     font-size: 1.5em;
     text-align: center;
 }
-.field label, .field span {
+
+.field label,
+.field span {
     padding-left: 10px;
     font-size: 1.1em;
     display: block;
     width: 100%;
 }
-input[type=text], input[type=email], textarea {
+
+input[type=text],
+input[type=email],
+textarea {
     width: 100%;
     padding-left: 10px;
     height: 30px;
@@ -234,22 +244,24 @@ input[type=text], input[type=email], textarea {
     outline: none;
     width: 270px;
 }
+
 .mensagem {
     line-height: 20px;
     padding: 10px;
     height: 110px;
     resize: none;
-    width: 100%;}
+    width: 100%;
+}
 
-    input[type=submit] {
-        display: block;
-        background-color: #ccc;
-        height: 35px;
-        border: none;
-        outline: 0;
-        cursor: pointer;
-        width: 100px;
-        margin: 0 auto;
-        text-align: center;
-        border-radius: 15px;
-    }
+input[type=submit] {
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
