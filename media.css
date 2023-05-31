@@ -27,11 +27,6 @@
         width: 30%;
     }
 
-    .cabeçalho-lista {
-        display: flex;
-        align-items: center;
-    }
-
     #corpo {
         background-color: rgb(26, 31, 48);
         color: white;
@@ -45,7 +40,7 @@
 
     .cabeçalho-lista-item {
         display: inline-block;
-        margin: 0 25px;
+        margin: 0;
         font-size: 20px;
         padding: 15px 0px;
     }
@@ -53,8 +48,8 @@
     .texto-cabecalho {
         display: flex;
         font-size: 20px;
-        margin: 27px 0px;
-        padding: 10px;
+        margin: 0;
+        padding: 0;
         align-items: center;
         text-align: center;
     }
