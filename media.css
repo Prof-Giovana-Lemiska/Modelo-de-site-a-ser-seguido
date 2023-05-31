@@ -28,6 +28,11 @@
         width: 30%;
     }
 
+    cabeçalho-lista {
+        display: flex;
+        align-items: center;
+    }
+
     #corpo {
         background-color: rgb(26, 31, 48);
         color: white;
