@@ -92,19 +92,20 @@
         text-align: center;
         border-radius: 15px;
     }
-    .mensagem{
+    .mensagem {
         line-height: 20px;
         padding: 10px;
         height: 110px;
         resize: none;
         width: 100%;
     }
-    .lado_1{
-        padding: 0 20px 0 100px;
+    .lado_1 {
+        padding: 0;
     }
-    .lado_2{
-        margin: 0 80px 0;  
-    }
+    
+    .lado_2 {
+        margin: 0 40px;
+    }    
 }
 
 .contato {
@@ -200,13 +201,13 @@ input[type=submit]{
     text-align: center;
     border-radius: 15px;
 }
-.mensagem{
-    line-height: 20px;
-    padding: 10px;
-    height: 110px;
-    resize: none;
-    width: 100%;
-}
+.mensagem {
+        line-height: 20px;
+        padding: 10px;
+        height: 110px;
+        resize: none;
+        width: 100%;
+    }
 .lado_1{
     padding: 0 20px 0 100px;
 }
