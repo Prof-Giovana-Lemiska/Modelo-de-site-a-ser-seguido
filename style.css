@@ -233,4 +233,11 @@ input[type=text], input[type=email], textarea {
     border: 1px solid #ccc;
     outline: none;
     width: 270px;
+}
+.mensagem {
+    line-height: 20px;
+    padding: 10px;
+    height: 110px;
+    resize: none;
+    width: 100%;}
     
