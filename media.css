@@ -28,7 +28,7 @@
         width: 30%;
     }
 
-    cabeçalho-lista {
+    .cabeçalho-lista {
         display: flex;
         align-items: center;
     }
