@@ -54,9 +54,9 @@
         display: flex;
         font-size: 20px;
         margin: 27px 0px;
-        width: 100%;
         padding: 10px;
         align-items: center;
+        text-align: center;
     }
 
     .corpo-div-conteudo {
