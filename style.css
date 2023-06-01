@@ -1,5 +1,3 @@
-@media screen and (min-width: 261px) {
-    
 
 * {
     margin: 0;
@@ -20,7 +18,7 @@
 }
 
 .cabeçalho-imagem {
-    width: 20px;
+    width: 80px;
     border-radius: 50%;
     padding: 5px 5px;
     height: auto;
@@ -271,5 +269,4 @@ input[type=submit] {
     margin: 0 auto;
     text-align: center;
     border-radius: 15px;
-}
 }
