@@ -12,7 +12,11 @@
     width: 50%;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev {
+    display: none;
+}
+
+.swiper-button-next {
     display: none;
 }
 
