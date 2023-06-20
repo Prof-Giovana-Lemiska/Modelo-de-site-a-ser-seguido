@@ -9,7 +9,36 @@
     <link rel="stylesheet" href="carrossel.css">
 </head>
 <body>
-    
+    <!-- Slider main container -->
+    <div class="swiper">
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="./imgs carrossel/tags.png" alt="foto"></div>
+            <div class="swiper-slide"><img src="./imgs carrossel/robo.png" alt="foto"></div>
+            <div class="swiper-slide"><img src="./imgs carrossel/biotec.png" alt="foto"></div>
+            <div class="swiper-slide"><img src="./imgs carrossel/empreende.png" alt="foto"></div>
+            <div class="swiper-slide"><img src="./imgs carrossel/prog.png" alt="foto"></div>
+            <div class="swiper-slide"><img src="./imgs carrossel/rob2.png" alt="foto"></div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+        });</script>
 </body>
 
 </html>

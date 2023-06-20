@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Estilo de Site</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carrossel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&amp;display=swap" rel="stylesheet">
@@ -53,7 +54,15 @@
         <div class="swiper-scrollbar"></div>
     </div>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+        });</script>
     <section id="corpo">
         <div class="corpo-div-conteudo">
             <h2 class="corpo-titulo">Sobre o Site</h2>
@@ -65,39 +74,35 @@
         </div>
         <img class="foto-corpo" src="g-foto.png" alt="foto do corpo">
     </section>
-
+    
     <section id="quem-somos">
         <h2 class="quem-somos-titulo">Quem somos?</h2>
         <div class="alunos-todos">
             <div class="alunos-div">
                 <img class="alunos-fotos" src="g-01.png" alt="foto do aluno">
                 <h3 class="nome-aluno">Aluno 01 da turma XXX</h3>
-                <p class="texto-aluno">Um texto de apresentação sobre o aluno, no qual ele coloca informações que julga
-                    pertinente e que
+                <p class="texto-aluno">Um texto de apresentação sobre o aluno, no qual ele coloca informações que julga pertinente e que
                     gostaria que soubessemos sobre ele.
                 </p>
             </div>
             <div class="alunos-div">
                 <img class="alunos-fotos" src="g-01.png" alt="foto do aluno">
                 <h3 class="nome-aluno">Aluno 02 da turma XXX</h3>
-                <p class="texto-aluno">Um texto de apresentação sobre o aluno, no qual ele coloca informações que julga
-                    pertinente e que
+                <p class="texto-aluno">Um texto de apresentação sobre o aluno, no qual ele coloca informações que julga pertinente e que
                     gostaria que soubessemos sobre ele.
                 </p>
             </div>
             <div class="alunos-div">
                 <img class="alunos-fotos" src="g-01.png" alt="foto do aluno">
                 <h3 class="nome-aluno">Aluno 03 da turma XXX</h3>
-                <p class="texto-aluno">Um texto de apresentação sobre o aluno, no qual ele coloca informações que julga
-                    pertinente e que
+                <p class="texto-aluno">Um texto de apresentação sobre o aluno, no qual ele coloca informações que julga pertinente e que
                     gostaria que soubessemos sobre ele.
                 </p>
             </div>
             <div class="alunos-div">
                 <img class="alunos-fotos" src="g-01.png" alt="foto do aluno">
                 <h3 class="nome-aluno">Aluno 04 da turma XXX</h3>
-                <p class="texto-aluno">Um texto de apresentação sobre o aluno, no qual ele coloca informações que julga
-                    pertinente e que
+                <p class="texto-aluno">Um texto de apresentação sobre o aluno, no qual ele coloca informações que julga pertinente e que
                     gostaria que soubessemos sobre ele.
                 </p>
             </div>
@@ -120,10 +125,9 @@
             </div>
             <div class="field">
                 <div class="lado_2">
-                    <label for="mensagem" class="contato__texto">Sua mensagem:</label>
-                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required
-                        class="mensagem"></textarea>
-                </div>
+                <label for="mensagem" class="contato__texto">Sua mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required class="mensagem"></textarea>
+            </div>
             </div>
         </div>
         <input type="submit" name="acao" value="Enviar">
@@ -134,17 +138,9 @@
             <img class="roda-pé-imagem" src="g-cep.png" alt="Logo">
             <span></span>
             <p class="roda-pé-texto">Colégio Estadual do Paraná</p>
+            <a href="carrosel.html">xs</a>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
-            slidesPerView: 3,
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-            },
-        });</script>
 </body>
 
 </html>

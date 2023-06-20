@@ -16,6 +16,7 @@
 .swiper-pagination {
     position: initial;
     margin: .5em 0;
+
     text-align: center;
     transition: .3s opacity;
     transform: translate3d(0,0,0);
