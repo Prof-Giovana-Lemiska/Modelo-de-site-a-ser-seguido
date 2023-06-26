@@ -31,28 +31,26 @@
     <input type="radio" class="slide-controller" name="slide" />
 
     <script>
-        const slideControllers = document.querySelectorAll('.slide-controller');
-        const slidesList = document.querySelector('.slides-list');
+       const slideControllers = document.querySelectorAll('.slide-controller');
+    const slidesList = document.querySelector('.slides-list');
+    let currentSlide = 0;
 
-        // Adicionar um evento de clique para cada controlador de slide
-        slideControllers.forEach((controller, index) => {
-            controller.addEventListener('click', () => {
-                slidesList.style.left = `calc(${index} * -100%)`;
-            });
-        });
-        function autoChangeSlide() {
-            currentSlide = (currentSlide + 1) % slideControllers.length;
-            slideControllers[currentSlide].checked = true;
-            slidesList.style.left = `calc(${currentSlide} * -33.33%)`; /* Ajuste o valor para exibir o número desejado de slides */
-        }
+    // Adicionar um evento de clique para cada controlador de slide
+    slideControllers.forEach((controller, index) => {
+      controller.addEventListener('click', () => {
+        currentSlide = index;
+        slidesList.style.left = `calc(${index} * -100%)`;
+      });
+    });
 
-        // Adicionar um evento de clique para cada controlador de slide
-        slideControllers.forEach((controller, index) => {
-            controller.addEventListener('click', () => {
-                currentSlide = index;
-                slidesList.style.left = `calc(${index} * -33.33%)`; /* Ajuste o valor para exibir o número desejado de slides */
-            });
-        });
+    // Função para alterar os slides automaticamente após 20 segundos
+    function autoChangeSlide() {
+      currentSlide = (currentSlide + 1) % slideControllers.length;
+      slideControllers[currentSlide].checked = true;
+      slidesList.style.left = `calc(${currentSlide} * -100%)`;
+    }
+    // Definir um temporizador para alternar automaticamente os slides a cada 20 segundos (20000 milissegundos)
+    setInterval(autoChangeSlide, 20000);
     </script>
 </body>
 
