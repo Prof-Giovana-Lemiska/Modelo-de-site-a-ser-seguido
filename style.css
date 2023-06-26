@@ -1,6 +1,4 @@
 
-@import url(carrosel\ copy.css);
-
 * {
     margin: 0;
     padding: 0;
@@ -346,3 +344,5 @@ input[type=submit] {
     font-weight: 700;
     text-decoration: none;
 }
+
+@import url(carrosel\ copy.css);
