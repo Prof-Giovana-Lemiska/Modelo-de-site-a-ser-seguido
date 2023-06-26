@@ -11,36 +11,36 @@
 <body>
     <div class="slide-show">
         <ul class="slides-list">
-            <li class="slide">
-                <img src="./imgs carrossel/biotec.png" />
-            </li>
-            <li class="slide">
-                <img src="./imgs carrossel/empreende.png" />
-            </li>
-            <li class="slide">
-                <img src="./imgs carrossel/prog.png" />
-            </li>
-            <li class="slide">
-                <img src="./imgs carrossel/rob2.png" />
-            </li>
+          <li class="slide">
+            <img src="./imgs carrossel/biotec.png" />
+          </li>
+          <li class="slide">
+            <img src="./imgs carrossel/empreende.png" />
+          </li>
+          <li class="slide">
+            <img src="./imgs carrossel/prog.png" />
+          </li>
+          <li class="slide">
+            <img src="./imgs carrossel/rob2.png" />
+          </li>
         </ul>
-    </div>
-    <input type="radio" class="slide-controller" name="slide" checked />
-    <input type="radio" class="slide-controller" name="slide" />
-    <input type="radio" class="slide-controller" name="slide" />
-    <input type="radio" class="slide-controller" name="slide" />
-
-    <script>
+      </div>
+      <input type="radio" class="slide-controller" name="slide" checked />
+      <input type="radio" class="slide-controller" name="slide" />
+      <input type="radio" class="slide-controller" name="slide" />
+      <input type="radio" class="slide-controller" name="slide" />
+    
+      <script>
         const slideControllers = document.querySelectorAll('.slide-controller');
         const slidesList = document.querySelector('.slides-list');
-
+    
         // Adicionar um evento de clique para cada controlador de slide
         slideControllers.forEach((controller, index) => {
-            controller.addEventListener('click', () => {
-                slidesList.style.left = `calc(${index} * -100%)`;
-            });
+          controller.addEventListener('click', () => {
+            slidesList.style.left = `calc(${index} * -33.33%)`; /* Ajuste o valor para exibir o número desejado de slides */
+          });
         });
-    </script>
+      </script>
 </body>
 
 </html>
