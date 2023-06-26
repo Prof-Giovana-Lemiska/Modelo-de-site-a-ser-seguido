@@ -16,7 +16,7 @@
   position: relative;
   left: calc(var(--selected-item) * -100%);
   transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-  --total-items: 4;
+  --total-items: 6;
   width: calc(var(--total-items) * 100%);
 }
 .redondo{border-radius: 106px;}
