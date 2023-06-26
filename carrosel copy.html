@@ -30,17 +30,7 @@
       <input type="radio" class="slide-controller" name="slide" />
     
 
-    <script>
-        const slideControllers = document.querySelectorAll('.slide-controller');
-        const slidesList = document.querySelector('.slides-list');
-
-        // Adicionar um evento de clique para cada controlador de slide
-        slideControllers.forEach((controller, index) => {
-            controller.addEventListener('click', () => {
-                slidesList.style.left = `calc(${index} * -100%)`;
-            });
-        });
-    </script>
+    
 </body>
 
 </html>
