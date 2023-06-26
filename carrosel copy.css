@@ -1,3 +1,6 @@
+.carrosel{
+  text-align: center;
+}
 .slides-list {
   /* remove os estilos da lista */
   list-style-type: none;
