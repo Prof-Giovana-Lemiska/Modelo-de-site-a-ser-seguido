@@ -1,38 +1,38 @@
-.slides-list {
-  /* remove os estilos da lista */
-  list-style-type: none;
-  margin: 10px 0;
-  padding: 0;
-  width: 400%;
-  position: relative;
-  left: 0%;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
-  --selected-item: 0;
-  position: relative;
-  left: calc(var(--selected-item) * -100%);
-  transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-  --total-items: 4;
-  width: calc(var(--total-items) * 100%);
-}
-
 .slide-show {
   overflow: hidden;
+  width: 100%;
+}
+
+.slides-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 300%; /* Ajuste o valor para exibir o número desejado de slides */
+  transition: transform 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+.slide {
+  flex: 1 0 33.33%; /* Ajuste o valor para exibir o número desejado de slides */
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
 }
 
 .slide-controller:nth-child(1):checked~.slide-show .slides-list {
-  --selected-item: 0;
+  transform: translateX(0%);
 }
 
 .slide-controller:nth-child(2):checked~.slide-show .slides-list {
-  --selected-item: 1;
+  transform: translateX(-33.33%); /* Ajuste o valor para exibir o número desejado de slides */
 }
 
 .slide-controller:nth-child(3):checked~.slide-show .slides-list {
-  --selected-item: 2;
+  transform: translateX(-66.66%); /* Ajuste o valor para exibir o número desejado de slides */
 }
 
-.slide-controller:nth-child(4):checked~.slide-show .slides-list {
-  --selected-item: 3;
+.slide-controller {
+  display: none;
 }
