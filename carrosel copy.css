@@ -7,7 +7,7 @@
   list-style-type: none;
   margin: 10px 0;
   padding: 0;
-  width: 100%;
+  width: 400%;
   position: relative;
   left: 0%;
   display: grid;
@@ -20,7 +20,8 @@
   --total-items: 6;
   width: calc(var(--total-items) * 100%);
 }
-.redondo{border-radius: 106px;}
+.redondo{border-radius: 106px;
+width: 50%;}
 
 .slide-show {
   overflow: hidden;
