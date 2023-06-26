@@ -19,6 +19,7 @@
   --total-items: 4;
   width: calc(var(--total-items) * 100%);
 }
+.redondo{border-radius: 106px;}
 
 .slide-show {
   overflow: hidden;
