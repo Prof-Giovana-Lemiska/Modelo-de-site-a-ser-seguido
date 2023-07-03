@@ -208,6 +208,12 @@ li.dropdown {
 .field {
     width: 100%;
     margin: 15px 0;
+    padding: 0 12px;
+}
+}
+
+.lado_1{
+    width: 100%;
 }
 
 .lado_2 {
