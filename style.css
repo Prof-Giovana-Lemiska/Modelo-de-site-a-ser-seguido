@@ -203,6 +203,7 @@ li.dropdown {
 .lado {
     display: flex;
     align-items: center;
+    flex-direction: column;
 
 }
 
