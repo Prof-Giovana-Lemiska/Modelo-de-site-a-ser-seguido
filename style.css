@@ -48,7 +48,7 @@
 
 .texto-cabecalho {
     font-size: 20px;
-width: 100%;
+    width: 100%;
 }
 
 .corpo-div-conteudo {
@@ -171,10 +171,9 @@ li.dropdown {
 }
 
 .pesquisa {
-
     background-color: rgb(45, 52, 75);
     text-align: center;
-    padding: 120px 0 30px 0;
+    padding: 160px 0 30px 0;
 }
 
 .search-pesquisa {
