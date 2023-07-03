@@ -201,7 +201,7 @@
     .lado {
         display: flex;
         align-items: center;
-    
+        flex-direction: column;
     }
     
     .field {
@@ -209,17 +209,9 @@
         margin: 15px 0;
     }
     
-    .lado_1 {
-        padding: 0 20px 0 100px;
-    }
-    
-    .lado_2 {
-        margin: 0 80px 0;
-    }
     
     .formulario {
         background-color: rgb(26, 31, 48);
-        padding: 20px;
         color: white;
     }
     
