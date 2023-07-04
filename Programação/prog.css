@@ -6,12 +6,8 @@
         padding: 0;
     }
 
-    body {
-        background-image: linear-gradient(rgba(174, 128, 231, 0.821), rgb(152, 199, 216));
-    }
-
     .cabeçalho {
-        background-color: rgb(174, 128, 231);
+        background-color: rgb(211, 139, 235);
         color: white;
         display: flex;
         justify-content: space-around;
@@ -48,6 +44,7 @@
     }
 
     #Trab1 {
+        background-color: rgb(220, 185, 231);
         color: black;
         display: flex;
         justify-content: center;
@@ -57,6 +54,7 @@
     }
 
     #Trab2 {
+        background-color: rgb(206, 177, 216);
         color: black;
         display: flex;
         justify-content: center;
@@ -66,6 +64,7 @@
     }
 
     #Trab3 {
+        background-color: rgb(220, 185, 231);
         color: black;
         display: flex;
         justify-content: center;
@@ -107,7 +106,7 @@
 
     .roda-pé-texto {
         margin: 10px 0px 5px 0px;
-        color: rgb(0, 0, 0);
+        color: white;
     }
 
     li {
@@ -185,12 +184,8 @@
         padding: 0;
     }
 
-    body {
-        background-image: linear-gradient(rgba(174, 128, 231, 0.821), rgb(152, 199, 216));
-    }
-
     .cabeçalho {
-        background-color: rgb(174, 128, 231);
+        background-color: rgb(211, 139, 235);
         color: white;
         display: flex;
         justify-content: space-around;
@@ -229,6 +224,7 @@
     }
 
     #Trab1 {
+        background-color: rgb(220, 185, 231);
         color: black;
         display: flex;
         justify-content: center;
@@ -238,6 +234,7 @@
     }
 
     #Trab2 {
+        background-color: rgb(206, 177, 216);
         color: black;
         display: flex;
         justify-content: center;
@@ -246,6 +243,7 @@
     }
 
     #Trab3 {
+        background-color: rgb(220, 185, 231);
         color: black;
         display: flex;
         justify-content: center;
@@ -286,7 +284,7 @@
 
     .roda-pé-texto {
         margin: 10px 0px 5px 0px;
-        color: rgb(0, 0, 0);
+        color: white;
     }
 
     li {
@@ -364,12 +362,8 @@
         padding: 0;
     }
 
-    body {
-        background-image: linear-gradient(rgba(174, 128, 231, 0.821), rgb(152, 199, 216));
-    }
-
     .cabeçalho {
-        background-color: rgb(174, 128, 231);
+        background-color: rgb(211, 139, 235);
         color: white;
         display: flex;
         justify-content: space-around;
@@ -406,6 +400,7 @@
     }
 
     #Trab1 {
+        background-color: rgb(220, 185, 231);
         color: black;
         display: flex;
         justify-content: center;
@@ -415,6 +410,7 @@
     }
 
     #Trab2 {
+        background-color: rgb(206, 177, 216);
         color: black;
         display: flex;
         justify-content: center;
@@ -423,6 +419,7 @@
     }
 
     #Trab3 {
+        background-color: rgb(220, 185, 231);
         color: black;
         display: flex;
         justify-content: center;
@@ -465,7 +462,7 @@
 
     .roda-pé-texto {
         margin: 10px 0px 5px 0px;
-        color: rgb(0, 0, 0);
+        color: white;
     }
 
     li {
