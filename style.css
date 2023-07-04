@@ -362,6 +362,7 @@
         width: 100%;
         align-items: center;
         z-index: 1;
+        flex-wrap: wrap;
     }
 
     .cabeçalho-imagem {
@@ -395,6 +396,7 @@
     .texto-cabecalho {
         font-size: 20px;
         width: 100%;
+        text-align: center;
     }
 
     .corpo-div-conteudo {
