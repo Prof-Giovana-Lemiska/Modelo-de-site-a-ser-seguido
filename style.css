@@ -201,7 +201,6 @@ li.dropdown {
 
 .lado {
     display: flex;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -252,7 +251,7 @@ textarea {
 .mensagem {
     width: 100%;
     padding: 10px;
-    height: 30px;
+    height: 100px;
     line-height: 30px;
     border-radius: 15px;
     border: 1px solid #ccc;
