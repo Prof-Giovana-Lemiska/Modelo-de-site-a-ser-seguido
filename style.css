@@ -12,11 +12,11 @@
         display: flex;
         justify-content: space-around;
         font-family: 'Ubuntu', sans-serif;
-        position: fixed;
         top: 0;
         width: 100%;
         align-items: center;
         z-index: 1;
+        flex-wrap: wrap;
     }
 
     .cabeçalho-imagem {
@@ -42,13 +42,13 @@
 
     .cabeçalho-lista-item {
         display: inline-block;
-
         font-size: 20px;
 
     }
 
     .texto-cabecalho {
         font-size: 20px;
+        text-align: center;
     }
 
     .corpo-div-conteudo {
@@ -173,7 +173,7 @@
     .pesquisa {
         background-color: rgb(45, 52, 75);
         text-align: center;
-        padding: 165px 0 30px 0;
+        padding: 10px 0;
     }
 
     .corpo-titulo {
