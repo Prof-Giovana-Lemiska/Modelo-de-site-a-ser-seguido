@@ -73,7 +73,7 @@
     }
 
     .cabeçalho-lista-item {
-        display: inline-block;
+        display: none;
         font-size: 20px;
     }
 
