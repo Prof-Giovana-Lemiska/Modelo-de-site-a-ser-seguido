@@ -252,11 +252,14 @@ textarea {
 }
 
 .mensagem {
-    line-height: 20px;
-    padding: 10px;
-    height: 110px;
-    resize: none;
     width: 100%;
+    padding: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
 }
 
 input[type=submit] {
