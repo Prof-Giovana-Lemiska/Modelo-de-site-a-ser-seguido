@@ -40,6 +40,10 @@
         flex-direction: column;
     }
 
+    .cabeçalho-lista {
+        display: flex;
+    }
+
     .cabeçalho-lista-item {
         display: inline-block;
         font-size: 20px;
