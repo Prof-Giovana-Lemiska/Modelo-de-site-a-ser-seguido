@@ -357,7 +357,6 @@
         display: flex;
         justify-content: space-around;
         font-family: 'Ubuntu', sans-serif;
-        position: fixed;
         top: 0;
         width: 100%;
         align-items: center;
@@ -521,7 +520,7 @@
     .pesquisa {
         background-color: rgb(45, 52, 75);
         text-align: center;
-        padding: 200px 0 30px 0;
+        padding: 10px 0;
     }
 
     .corpo-titulo {
