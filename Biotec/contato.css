@@ -107,13 +107,8 @@
         resize: none;
         width: 100%;
     }
-
     .lado_1 {
-        padding: 0 20px 0 100px;
-    }
-
-    .lado_2 {
-        margin: 0 80px 0;
+        width: 100%;
     }
 }
 
@@ -229,6 +224,10 @@ input[type=submit] {
 }
 
 .lado_1 {
-    width: 100%;
+    padding: 0 20px 0 100px;
+}
+
+.lado_2 {
+    margin: 0 80px 0;
 }
 }
