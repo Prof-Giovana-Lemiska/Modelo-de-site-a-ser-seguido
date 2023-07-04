@@ -33,6 +33,7 @@
     .lado {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .formulario {
@@ -73,7 +74,6 @@
         border-radius: 15px;
         border: 1px solid #ccc;
         outline: none;
-        width: 270px;
     }
 
     input#nao {
