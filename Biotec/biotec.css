@@ -1,8 +1,8 @@
 
-@media screen and (max-width: 394px) {
+@media screen and (max-width: 656px) {
 
 }
-@media screen and (min-width:394px) and (max-width: 1065px) {
+@media screen and (min-width:656px) and (max-width: 1065px) {
     * {
         margin: 0;
         padding: 0;
