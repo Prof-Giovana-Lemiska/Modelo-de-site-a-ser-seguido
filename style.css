@@ -92,7 +92,7 @@
 
 .alunos-todos {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 50% 50%;
 }
 
 .alunos-fotos {
@@ -444,7 +444,9 @@ input[type=submit] {
         height: 110px;
         resize: none;
     }
-
+    .alunos-todos {
+        grid-template-columns: 25% 25% 25% 25%; 
+    }
 }
 
 @media screen and (min-width: 1024px) {
