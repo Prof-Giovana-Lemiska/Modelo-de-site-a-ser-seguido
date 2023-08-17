@@ -385,4 +385,7 @@ cabeçalho-lista-item {
     .cabeçalho {
         flex-wrap: nowrap;
     }
+    cabeçalho-lista-item {
+        display: block;
+    }
 }
