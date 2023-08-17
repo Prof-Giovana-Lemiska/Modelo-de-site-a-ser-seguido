@@ -379,6 +379,7 @@ input[type=submit] {
         align-items: center;
         flex-direction: column;
     }
+
     cabeçalho-lista-item {
         display: none;
     }
