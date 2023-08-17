@@ -394,3 +394,11 @@ input[type=submit] {
         padding: 0 20px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .foto-corpo {
+        width: 30%;
+        padding: 0 20px;
+    }
+
+}
