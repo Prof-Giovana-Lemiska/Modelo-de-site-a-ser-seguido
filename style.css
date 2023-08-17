@@ -378,7 +378,5 @@
     
 
     @media screen and (max-width: 394px) {
-        .cabeçalho-lista {
-            display: flex;
-        }
+        cabeçalho-lista-item{ display: none;}
     }
