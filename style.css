@@ -372,7 +372,7 @@ input[type=submit] {
     .cabeçalho {
         flex-wrap: nowrap;
     }
-    cabeçalho-lista-item {
+    .cabeçalho-lista-item {
         display: block;
     }
     #corpo {
