@@ -389,5 +389,8 @@ input[type=submit] {
     .alunos-div {
         padding: 50px 0;
     }
-
+    .foto-corpo {
+        width: 50%;
+        padding: 0 20px;
+    }
 }
