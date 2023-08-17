@@ -354,12 +354,16 @@
         text-decoration: none;
     }
 
-    @media screen and (min-width: 394px) {
+    @media screen and (max-width: 720px) {
         .cabeçalho {
             flex-wrap: wrap;
         }
         .cabeçalho-imagem {
             width: 70px;
             padding: 16px 16px;
+        }
+        .foto-corpo {
+            width: 70%;
+            padding: 20px 0;
         }
     }
