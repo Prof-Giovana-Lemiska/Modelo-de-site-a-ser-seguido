@@ -63,10 +63,12 @@
 }
 
 .corpo-div-conteudo {
-    width: 35%;
+    width: 90%;
     font-family: 'Ubuntu', sans-serif;
     line-height: 1.8;
 }
+
+
 
 .paragrafo-um {
     text-align: justify;
@@ -83,11 +85,11 @@
 .quem-somos-titulo a {
     text-align: center;
 }
-
 .alunos-div {
     text-align: center;
-    padding: 50px 0;
+    padding: 20px 0;
 }
+
 
 .alunos-todos {
     display: grid;
@@ -370,7 +372,6 @@ input[type=submit] {
 }
 
 
-
 @media screen and (min-width: 720px) {
     .cabeçalho {
         flex-wrap: nowrap;
@@ -382,4 +383,11 @@ input[type=submit] {
         padding: 30px 0;
         flex-direction: row;
     }
+    .corpo-div-conteudo {
+        width: 35%;
+    }
+    .alunos-div {
+        padding: 50px 0;
+    }
+
 }
