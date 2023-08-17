@@ -354,4 +354,12 @@
         text-decoration: none;
     }
 
-}
+    @media screen and (min-width: 720px) {
+        .cabeçalho {
+            flex-wrap: wrap;
+        }
+        .cabeçalho-imagem {
+            width: 70px;
+            padding: 16px 16px;
+        }
+    }
