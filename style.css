@@ -84,6 +84,7 @@
 .quem-somos-titulo a {
     text-align: center;
 }
+
 .alunos-div {
     text-align: center;
     padding: 20px 0;
@@ -181,7 +182,7 @@ li.dropdown {
     justify-content: center;
 }
 
- 
+
 .pesquisa {
     background-color: rgb(45, 52, 75);
     text-align: center;
@@ -214,16 +215,12 @@ li.dropdown {
 }
 
 .field {
-    width: 100%;
     margin: 15px 0;
+    padding: 0 12px;
 }
 
 .lado_1 {
-    padding: 0 20px 0 100px;
-}
-
-.lado_2 {
-    margin: 0 80px 0;
+    width: 100%;
 }
 
 .formulario {
@@ -256,15 +253,16 @@ textarea {
     border-radius: 15px;
     border: 1px solid #ccc;
     outline: none;
-    width: 270px;
 }
 
 .mensagem {
-    line-height: 20px;
-    padding: 10px;
-    height: 110px;
-    resize: none;
     width: 100%;
+    padding: 10px;
+    height: 100px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
 }
 
 input[type=submit] {
@@ -372,23 +370,29 @@ input[type=submit] {
     .cabeçalho {
         flex-wrap: nowrap;
     }
+
     .cabeçalho-lista-item {
         display: block;
     }
+
     #corpo {
         padding: 30px 0;
         flex-direction: row;
     }
+
     .corpo-div-conteudo {
         width: 35%;
     }
+
     .alunos-div {
         padding: 50px 0;
     }
+
     .foto-corpo {
         width: 50%;
         padding: 0 20px;
     }
+
     .alunos-fotos {
         width: 120px;
         padding: 0px 0px 20px 0px;
@@ -399,14 +403,46 @@ input[type=submit] {
         padding: 15px 0px;
         margin-left: 25px;
     }
-    
+
     .pesquisa {
         padding: 120px 0 30px 0;
     }
-    
-.lado {
-    flex-direction: row;
-}
+
+    .lado {
+        flex-direction: row;
+    }
+
+    .field {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .lado_1 {
+        padding: 0 20px 0 100px;
+    }
+
+    .lado_2 {
+        margin: 0 80px 0;
+    }
+
+    input[type=text],
+    input[type=email],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 15px;
+        border: 1px solid #ccc;
+        outline: none;
+        width: 270px;
+    }
+
+    .mensagem {
+        line-height: 20px;
+        height: 110px;
+        resize: none;
+    }
 
 }
 
