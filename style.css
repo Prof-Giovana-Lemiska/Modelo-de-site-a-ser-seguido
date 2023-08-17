@@ -1,16 +1,16 @@
 @import url(carrosel\ copy.css);
-
+.gcse-search {
+    background-color: rgb(45, 52, 75);
+    text-align: center;
+    padding: 120px 0 30px 0;
+}
 @media screen and (max-width: 394px) {
     * {
         margin: 0;
         padding: 0;
     }
 
-    .gcse-search {
-        background-color: rgb(45, 52, 75);
-        text-align: center;
-        padding: 120px 0 30px 0;
-    }
+   
 
     .cabeçalho {
         background-color: rgb(45, 52, 75);
