@@ -9,6 +9,7 @@
   grid-template-columns: repeat(3, 1fr);
   padding: 10px;
   justify-items: center;
+  border: 1px solid white;
 }
 
 .tecla {
@@ -17,12 +18,9 @@
   box-shadow: 3px 3px 0 gray;
   color: red;
   cursor: pointer;
-  height: 120px;
-  font-size: 1.75em;
-  font-weight: bold;
-  line-height: 120px;
+padding: 30px;
   text-align: center;
-  width: 120px;
+
 }
 
 .tecla.ativa,
