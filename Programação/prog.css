@@ -9,7 +9,7 @@
   grid-template-columns: repeat(3, 1fr);
   padding: 10px;
   justify-items: center;
-  border: 1px solid white;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .tecla {
@@ -18,7 +18,10 @@
   box-shadow: 3px 3px 0 gray;
   color: red;
   cursor: pointer;
-padding: 30px;
+  height: 120px;
+  font-size: 1.75em;
+  font-weight: bold;
+  line-height: 120px;
   text-align: center;
 
 }
