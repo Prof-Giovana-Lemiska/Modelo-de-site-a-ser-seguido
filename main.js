@@ -15,9 +15,11 @@ while (Contador < ListaTeclas.length) {
     console.log(idAudio);
 
     ListaTeclas[Contador].onclick = function () {
-        tocar
-    };
+        tocar(idAudio);
+    }
+
     Contador = Contador + 1;
+
     console.log(Contador);
 }
 
