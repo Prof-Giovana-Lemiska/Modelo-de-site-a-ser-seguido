@@ -19,7 +19,9 @@ while (Contador < ListaTeclas.length) {
 
     Contador = Contador + 1;
 
-    botão.onkeydown = function() {
+    botão.onkeydown = function(Evento) {
+console.log(Evento);
+
         botão.classList.add('ativa');
     }
     botão.onkeyup = function() {
