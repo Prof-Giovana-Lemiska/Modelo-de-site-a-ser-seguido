@@ -19,14 +19,17 @@ while (Contador < ListaTeclas.length) {
 
     Contador = Contador + 1;
 
-    botão.onkeydown = function(Evento) {
-console.log(Evento.code == 'Space');
+    botão.onkeydown = function (Evento) {
+        console.log(Evento.code == 'Space');
 
-        botão.classList.add('ativa');
+        if (Evento.code == 'Space') {
+            botão.classList.add('ativa');
+        }
+
     }
-    botão.onkeyup = function() {
+    botão.onkeyup = function () {
         botão.classList.remove('ativa');
     }
-    }
+}
 
 
