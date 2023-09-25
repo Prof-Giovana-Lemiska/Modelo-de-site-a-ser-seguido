@@ -20,7 +20,7 @@ while (Contador < ListaTeclas.length) {
     Contador = Contador + 1;
 
     botão.onkeydown = function(Evento) {
-console.log(Evento.code = 'Space');
+console.log(Evento.code == 'Space');
 
         botão.classList.add('ativa');
     }
