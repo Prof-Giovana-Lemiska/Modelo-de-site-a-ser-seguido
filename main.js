@@ -23,7 +23,7 @@ while (Contador < ListaTeclas.length) {
         botão.classList.add('ativa');
     }
     botão.onkeyup = function() {
-        botão.classList.add('ativa');
+        botão.classList.remove('ativa');
     }
     }
 
