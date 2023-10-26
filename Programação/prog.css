@@ -1,5 +1,12 @@
 @import url(contato.css);
-
+:root {
+    --cinza: #aaa;
+    --vermelha: #e93d50;
+    --vermelha-escura: #af303f;
+    --branca: #fff;
+    --luz: #ff5c77
+  }
+  
 .campo {
     align-items: center;
   background: linear-gradient(45deg, #ff5c77 0%,#00b7c1 100%);
