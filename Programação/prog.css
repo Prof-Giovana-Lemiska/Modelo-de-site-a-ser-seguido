@@ -1,8 +1,13 @@
 @import url(contato.css);
 
 .campo {
-    padding: 30px 20%;
-    background-color: rgb(211, 179, 221);
+    align-items: center;
+  background: linear-gradient(45deg, #ff5c77 0%,#00b7c1 100%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
 }
 
 .teclado {
